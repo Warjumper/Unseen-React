@@ -29,7 +29,12 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one party at a time.</Slogan>
+          <Slogan>Innovating one party at a time.
+            <br />
+            Copyright &copy; | 2023 Unseen Riches &trade; 
+            <br />
+            Jesse H & Derrick L
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Warjumper">
