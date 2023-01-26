@@ -12,7 +12,7 @@ const data = [
 
 const Accomplishments = () => (
   <Section>
-    <SectionTitle style={{marginTop: "40px"}}>Personal Accomplishments</SectionTitle>
+    <SectionTitle style={{marginTop: "20px"}}>Personal Accomplishments</SectionTitle>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>

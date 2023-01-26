@@ -17,7 +17,7 @@ const Header = () =>  (
   <Div2>
     <li>
       <Link href="#projects">
-        <NavLink>Projects</NavLink>
+        <NavLink>Events</NavLink>
       </Link>
     </li>
     <li>
@@ -33,7 +33,7 @@ const Header = () =>  (
   </Div2>
   <Div3>
     <SocialIcons href="https://github.com/Warjumper">
-      <AiFillGithub size="3rem" />
+      <AiFillTwitterSquare size="3rem" />
     </SocialIcons>
     <SocialIcons href="https://linkedin.com">
       <AiFillLinkedin size="3rem" />

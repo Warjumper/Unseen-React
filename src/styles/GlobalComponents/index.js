@@ -165,7 +165,7 @@ export const SecondaryBtn = styled.button`
     line-height: 16px;
   }
 `
-
+// HERO BUTTON BACK (FRONT BELOW)
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
@@ -189,6 +189,7 @@ export const ButtonBack = styled.div`
     height: ${({ alt }) => alt ? '52px' : '48px'};
     font-size: ${({ alt }) => alt ? '20px' : '16px'};
     margin-bottom: ${({ alt }) => alt ? '0' : '64px'};
+    width: 50%;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -196,6 +197,7 @@ export const ButtonBack = styled.div`
     height: 32px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
+    width: 50%;
   }
 `
 
@@ -238,10 +240,12 @@ export const ButtonFront = styled.button`
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${({ alt }) => alt ? '20px' : '16px'};
+    width: 100%;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 14px;
+    width: 100%;
   }
 `
 
