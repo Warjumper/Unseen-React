@@ -25,10 +25,13 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        <LinkColumn>
+      {/* CALL INFORMATION */}
+        {/* <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:403-111-1111">403-111-1111</LinkItem>
-        </LinkColumn>
+        </LinkColumn> */}
+
+        {/* EMAIL INFORMATION */}
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:unseenriches@gmail.com">unseenriches@gmail.com</LinkItem>
@@ -39,9 +42,9 @@ const Footer = () => {
           <Slogan>
             Innovating one party at a time.
             <br />
-            Copyright &copy; | 2023 Unseen Riches &trade;
+            Copyright &copy; | 2022 Unseen Riches &trade;
             <br />
-            Jesse H & Derrick L
+            Derrick L & Jesse H
           </Slogan>
         </CompanyContainer>
         <SocialContainer>

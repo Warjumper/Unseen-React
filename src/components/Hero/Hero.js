@@ -8,13 +8,17 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        Unseen Riches
+        {/* HERO LOGO */}
+        <img src="images/logo-full.png" alt="unseen riches logo" style={{ width: "100%"}}/>
+        {/* TITLE TEXT */}
+        {/* Welcome To <br />
+        Unseen Riches */}
       </SectionTitle>
       <SectionText>
-        At Unseen Riches we believe there is a better way to connect you to some of the great events going on every single day. Our focus is to simplify the way you discover entertainment in your city.
+        At Unseen Riches we believe there is a better way to connect you to some of the great events going on every single day in your city. Our focus is to simplify the way you discover entertainment.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'} >Explore</Button>
+      {/* BUTTON */}
+      {/* <Button onClick={() => window.location = 'https://google.com'} >Explore</Button> */}
     </LeftSection>
   </Section>
 );

@@ -7,7 +7,7 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Events</SectionTitle>
+    <SectionTitle main>Nightlife</SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tages, source, visit }) =>(
         <BlogCard key={id}>
@@ -18,7 +18,8 @@ const Projects = () => (
           </TitleContent>
           <CardInfo style={{marginBottom: '20px'}} >{description}</CardInfo>
           <div>
-            <TitleContent style={{marginBottom: '20px'}} >Stack</TitleContent>
+{/* TITLE ABOVE CTA CARD BTNS */}
+            {/* <TitleContent style={{marginBottom: '20px'}} >Website</TitleContent> */}
 {/* TAG UNDEFINED */}
             {/* <TagList>
               {tags.map((tag, i) => (
@@ -28,10 +29,10 @@ const Projects = () => (
           </div>
 
 {/* CODE LINKS */}
-          {/* <UtilityList>
-            <ExternalLinks href={visit}>Code</ExternalLinks>
-            <ExternalLinks href={source}>Source</ExternalLinks>
-          </UtilityList> */}
+          <UtilityList>
+            <ExternalLinks href={visit}>Website</ExternalLinks>
+            <ExternalLinks href={source}>Purchase Tickets</ExternalLinks>
+          </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>

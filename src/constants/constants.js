@@ -1,100 +1,119 @@
+// CARD EVENT DATA
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Party', 'House Music', '18+', 'Rave'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "National on 10th",
+    description: "",
+    image: "/images/website-national.png",
+    tags: ["", "", "", ""],
+    // TICKETS
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.ntnl.ca/10th-avenue",
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Craft",
+    description: "",
+    image: "/images/craft-nobg.png",
+    tags: ["", ""],
+    // TICKETS
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.craftbeermarket.ca/",
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Greta Bar",
+    description: "",
+    image: "/images/website-greta.png",
+    tags: ["", ""],
+    // TICKETS
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.gretabar.com/",
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', '', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Wildhorse Saloon",
+    description: "",
+    image: "/images/stampede-wildhorse.png",
+    tags: ["", "", ""],
+    // TICKETS
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.wildhorsesaloon.ca/",
     id: 3,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', '', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "National Saloon",
+    description:
+      "",
+    image: "/images/stampede-ntnlsaloon.png",
+    tags: ["", "", ""],
+    // TICKETS
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.ntnlsaloon.ca/",
     id: 4,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', '', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Cowboys",
+    description:
+      "",
+    image: "/images/stampede-cowboys.png",
+    tags: ["", "", ""],
+    // TICKETS
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.cowboysmusicfestival.com/",
     id: 5,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', '', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: "Badlands Festival",
+    description:
+      "",
+    image: "/images/stampede-badlands.png",
+    tags: ["", "", ""],
+    // TICKETS
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.badlandsmusicfest.com/",
     id: 6,
   },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', '', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 7,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', '', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 8,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', '', ''],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 9,
-  },
+  // {
+  //   title: 'Unichat',
+  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: '/images/',
+  //   tags: ['React', '', ''],
+  //   source: 'https://google.com',
+  //   visit: 'https://google.com',
+  //   id: 7,
+  // },
+  // {
+  //   title: 'Unichat',
+  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: '/images/',
+  //   tags: ['React', '', ''],
+  //   source: 'https://google.com',
+  //   visit: 'https://google.com',
+  //   id: 8,
+  // },
+  // {
+  //   title: 'Unichat',
+  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+  //   image: '/images/',
+  //   tags: ['React', '', ''],
+  //   source: 'https://google.com',
+  //   visit: 'https://google.com',
+  //   id: 9,
+  // },
 ];
 
+// CAROUSEL TIMELINE
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: "Started our journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
 ];

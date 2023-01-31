@@ -46,9 +46,12 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Us</SectionTitle>
       <SectionText>
-      Unseen Riches was originally founded in 2022 to create unique events in an attempt to get everyone outside of the house after the Covid-19 pandemic. We quickly realized there are plenty of unique events happening every day hosted by great companies and individuals, but they struggled to have people attend. To start 2023 off right we launched our website to creatively help both the companies and the consumer.
+      Founded in 2022, Unseen Riches is a project to reignite people’s social lives after the Covid-19 pandemic. With the reopening of bars and venues, we quickly realized that many unique events, hosted by great teams, occur day to day in your city.<br></br> To kick off 2023, we have launched our website to link consumers with the creative, social experiences that they desire.
+      {/* Authored by Connor K */}
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+
+      {/* CAROUSEL */}
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
@@ -109,7 +112,7 @@ const Timeline = () => {
             <CarouselButtonDot active={activeItem} />
             </CarouselButton>
         ))}
-      </CarouselButtons>
+      </CarouselButtons> */}
       <SectionDivider />
     </Section>
   );

@@ -19,6 +19,7 @@ import {
   DiPhp,
 } from "react-icons/di";
 import { FaTiktok } from "react-icons/fa";
+// import { companyLogo } from "./images/logo-small1.png";
 
 import {
   Container,
@@ -42,12 +43,14 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <FaTiktok size="3rem" />{" "}
-          <Span style={{ marginLeft: "10px" }}>Unseen Riches</Span>
+          {/* <FaTiktok size="3rem" />{""} */}
+          {/* LOGO */}
+          <img src="images/logo-small1.png" alt="puzzle logo" style={{ height: "50px", width: "70px"}} />
+          <Span style={{ marginLeft: "10px" }}><em>Unseen Riches</em></Span>
         </a>
       </Link>
     </Div1>
-    <Div2>
+    <Div2 style={{ margin: "20px"}}>
       <li>
         <Link href="#projects">
           <NavLink>Events</NavLink>
@@ -55,7 +58,7 @@ const Header = () => (
       </li>
       <li>
         <Link href="#tech">
-          <NavLink>Technologies</NavLink>
+          <NavLink>Stampede</NavLink>
         </Link>
       </li>
       <li>

@@ -6,11 +6,13 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle style={{marginTop: "20px"}}>Technologies</SectionTitle>
+    <SectionTitle style={{marginTop: "20px"}}>Stampede</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world.
+      Stay tuned for a list of your upcoming Calgary Stampede 2023 events!
     </SectionText>
-    <List>
+
+    {/* LIST FOR ICON/PICS */}
+    {/* <List>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
@@ -41,7 +43,7 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-    </List>
+    </List> */}
   </Section>
 );
 
