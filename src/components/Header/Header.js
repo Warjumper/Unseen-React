@@ -45,8 +45,8 @@ const Header = () => (
         >
           {/* <FaTiktok size="3rem" />{""} */}
           {/* LOGO */}
-          <img src="images/logo-small1.png" alt="puzzle logo" style={{ height: "50px", width: "70px"}} />
-          <Span style={{ marginLeft: "10px" }}><em>Unseen Riches</em></Span>
+          <img src="images/logo-small1.png" alt="puzzle logo" style={{ height: "50px", width: "70px", marginTop: "10px"}} />
+          <Span style={{ marginLeft: "10px", marginTop: "10px" }}><em>Unseen Riches</em></Span>
         </a>
       </Link>
     </Div1>
