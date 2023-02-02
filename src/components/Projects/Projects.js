@@ -1,13 +1,16 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionText, } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Nightlife</SectionTitle>
+    <SectionText>
+      Stay tuned for a list of your upcoming Calgary Nightlife 2023 events!
+    </SectionText>
     <GridContainer>
       {projects.map(({ id, image, title, description, tages, source, visit }) =>(
         <BlogCard key={id}>
