@@ -6,10 +6,23 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle style={{marginTop: "20px"}}>Stampede</SectionTitle>
+    <SectionTitle style={{marginTop: "40px"}}>Stampede</SectionTitle>
     <SectionText>
-      Stay tuned for a list of your upcoming Calgary Stampede 2023 events!
+      A list of the hottest Stampede 2023 events!
     </SectionText>
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     {/* LIST FOR ICON/PICS */}
     {/* <List>
@@ -44,7 +57,9 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List> */}
-  </Section>
+      </Section>
 );
+
+
 
 export default Technologies;

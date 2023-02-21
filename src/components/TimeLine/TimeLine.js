@@ -44,7 +44,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Us</SectionTitle>
+      <SectionDivider />
+      <SectionTitle style={{marginTop: "40px"}}>About Us</SectionTitle>
       <SectionText>
       Founded in 2022, Unseen Riches is a project to reignite people’s social lives after the Covid-19 pandemic. With the reopening of bars and venues, we quickly realized that many unique events, hosted by great teams, occur day to day in your city.<br></br> To kick off 2023, we have launched our website to link consumers with the creative, social experiences that they desire.
       {/* Authored by Connor K */}

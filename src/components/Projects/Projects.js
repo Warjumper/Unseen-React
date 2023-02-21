@@ -9,7 +9,7 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Nightlife</SectionTitle>
     <SectionText>
-      Stay tuned for a list of your upcoming Calgary Nightlife 2023 events!
+      A list of the hottest Calgary Nightlife 2023 venues!
     </SectionText>
     <GridContainer>
       {projects.map(({ id, image, title, description, tages, source, visit }) =>(
@@ -34,11 +34,12 @@ const Projects = () => (
 {/* CODE LINKS */}
           <UtilityList>
             <ExternalLinks href={visit}>Website</ExternalLinks>
-            <ExternalLinks href={source}>Purchase Tickets</ExternalLinks>
+            <ExternalLinks href={source}>Guestlist</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
+
   </Section>
 );
 
