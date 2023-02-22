@@ -19,16 +19,12 @@ const Projects = () => (
             <HeaderThree title>{title}</HeaderThree>
             <Hr />
           </TitleContent>
-          <CardInfo style={{marginBottom: '20px'}} >{description}</CardInfo>
+          <CardInfo style={{marginBottom: '40px'}} >{description}</CardInfo>
           <div>
 {/* TITLE ABOVE CTA CARD BTNS */}
-            {/* <TitleContent style={{marginBottom: '20px'}} >Website</TitleContent> */}
-{/* TAG UNDEFINED */}
-            {/* <TagList>
-              {tags.map((tag, i) => (
-                  <Tag key={i}>{tag}</Tag>
-              ))}
-            </TagList> */}
+            <TitleContent style={{marginBottom: '20px'}} >Check them out below!</TitleContent>
+
+        
           </div>
 
 {/* CODE LINKS */}

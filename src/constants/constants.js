@@ -178,3 +178,84 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
+
+export const stampede = [
+  {
+    title: "Badlands",
+    description: "The Badlands Festival is a series of electronic and hip-hop shows downtown during the famous Calgary Stampede.",
+    image: "/images/website-badlands.png",
+    tags: ["", "", "", ""],
+    // TICKETS/GLIST
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.badlandsmusicfest.com/",
+    id: 0,
+  },
+  {
+    title: "Cowboys",
+    description: "Cowboys Music Festival is a world famous event that hosts guests from around the world during the Calgary Stampede.",
+    image: "/images/website-cowboysstampede.png",
+    tags: ["", "", "", ""],
+    // TICKETS/GLIST
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.cowboysmusicfestival.com/",
+    id: 1,
+  },
+  {
+    title: "NTNL Saloon",
+    description: "Located behind National 10th in the heart of Calgary's beltline is the newest tent experience. Live music, great food and the good times you know and love.",
+    image: "/images/website-ntnlsaloon.png",
+    tags: ["", "", "", ""],
+    // TICKETS/GLIST
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.ntnlsaloon.ca/",
+    id: 2,
+  },
+  {
+    title: "Wildhorse",
+    description: "The Wildhorse Saloon is your destination for the greatest Stampede Party and events in Calgary.",
+    image: "/images/website-wildhorse.png",
+    tags: ["", "", "", ""],
+    // TICKETS/GLIST
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.wildhorsesaloon.ca/",
+    id: 3,
+  },
+  {
+    title: "Whiskey Rose",
+    description: "Nashville-inspired saloon in the heart of Calgary along 17th Avenue. Live music and dancing, Southern-inspired comfort foods, and no-nonsense.",
+    image: "/images/website-whiskeyrose.png",
+    tags: ["", "", "", ""],
+    // TICKETS/GLIST
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://whiskeyrosesaloon.com/",
+    id: 4,
+  },
+  {
+    title: "Coca-Cola Stage",
+    description: "Enjoy the ultimate outdoor live music experience of the summer, free with Park Admission. From Rock to Hip-Hop, to Pop and EDM.",
+    image: "/images/website-cocacolastage.png",
+    tags: ["", "", "", ""],
+    // TICKETS/GLIST
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.calgarystampede.com/coca-cola-stage",
+    id: 5,
+  },
+  {
+    title: "Nashville North",
+    description: "The best Country music venue in the city!",
+    image: "/images/website-nashvillenorth.png",
+    tags: ["", "", "", ""],
+    // TICKETS/GLIST
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.calgarystampede.com/nashville-north",
+    id: 6,
+  },
+
+];
