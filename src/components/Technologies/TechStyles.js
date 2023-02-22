@@ -112,3 +112,9 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+export const ConcertInfo = styled.li`
+color: #d8bfbf;
+font-size: 1.75rem;
+text-align: left;
+padding:1rem 6rem;
+`

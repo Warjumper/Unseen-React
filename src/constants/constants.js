@@ -201,6 +201,7 @@ export const TimeLineData = [
   { year: 2021, text: "Started my own platform" },
 ];
 
+// STAMPEDE CARDS
 export const stampede = [
   {
     title: "Badlands",
