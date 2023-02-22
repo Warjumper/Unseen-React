@@ -62,6 +62,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
+        <Link href="#concerts">
+          <NavLink>Concerts</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>

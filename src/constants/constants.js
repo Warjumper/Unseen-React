@@ -167,6 +167,28 @@ export const projects = [
     visit: 'https://thebanquetbar.com/',
     id: 14,
   },
+  {
+    title: 'Papi',
+    description: "Papi is a one-of-a-kind House of Tequila & Margarita Dance Club that comes together to offer guests a unique and unprecedented experience.",
+    image: '/images/website-papi.png',
+    tags: ['React', '', ''],
+    // TICKETS/GLIST
+    source: '',
+    // WEBPAGE LINK URL
+    visit: 'https://papicalgary.ca/',
+    id: 15,
+  },
+  {
+    title: 'PDT',
+    description: "Please Don’t Tell [PDT] is Calgary’s newest bar/nightclub located in the heart of downtown right underneath first street S.W. Our goal is to offer our guests an upscale and unique nightlife experience. We strongly recommend our guests to dress up & reserve a table to get the ultimate experience.",
+    image: '/images/website-pleasedonttell.png',
+    tags: ['React', '', ''],
+    // TICKETS/GLIST
+    source: '',
+    // WEBPAGE LINK URL
+    visit: 'https://pdtcalgary.ca/',
+    id: 16,
+  },
 
 ];
 

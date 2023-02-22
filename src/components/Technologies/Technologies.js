@@ -80,10 +80,10 @@ const Projects = () => (
             <TitleContent style={{marginBottom: '20px'}} >Check them out below!</TitleContent>   
           </div>
 
-{/* CODE LINKS */}
+{/* CARD BUTTON LINKS */}
           <UtilityList>
             <ExternalLinks href={visit}>Website</ExternalLinks>
-            <ExternalLinks href={source}>Guestlist</ExternalLinks>
+            {/* <ExternalLinks href={source}>Guestlist</ExternalLinks> */}
           </UtilityList>
         </BlogCard>
       ))}
