@@ -52,12 +52,12 @@ const Header = () => (
     </Div1>
     <Div2 style={{ margin: "20px"}}>
       <li>
-        <Link href="#projects">
-          <NavLink>Events</NavLink>
+        <Link href="#nightlife">
+          <NavLink>Nightlife</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#stampede">
           <NavLink>Stampede</NavLink>
         </Link>
       </li>

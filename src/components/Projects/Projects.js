@@ -5,7 +5,7 @@ import { Section, SectionDivider, SectionTitle, SectionText, } from '../../style
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section nopadding id="nightlife">
     <SectionDivider />
     <SectionTitle main>Nightlife</SectionTitle>
     <SectionText>
