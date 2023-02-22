@@ -59,7 +59,7 @@ import { Section, SectionDivider, SectionTitle, SectionText, } from '../../style
 import { stampede } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section nopadding id="tech">
     <SectionDivider style={{marginTop: '40px'}}/>
     <SectionTitle main>Stampede</SectionTitle>
     <SectionText>
