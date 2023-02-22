@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+
 // NIGHTLIFE CARD DATA
 export const projects = [
   {
@@ -83,7 +85,7 @@ export const projects = [
     title: "One Night Stan's",
     description: "One Night Stan's is the kind of place where you can feel comfortable in a three piece suit, yoga pants, or anything in between.",
     image: "/images/website-onenightstans.png",
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -94,7 +96,7 @@ export const projects = [
     title: 'Ship and Anchor',
     description: "Low-key watering hole offering casual bar fare, sports on TV & occasional live music, plus a patio.",
     image: '/images/website-shipandanchor.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -105,7 +107,7 @@ export const projects = [
     title: 'The Palace',
     description: "This multi-function venue will be home to everything from concerts, musical performances, seminars, symposiums & corporate events. All with our state-of-the art cinema sound system!",
     image: '/images/website-palace.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -116,7 +118,7 @@ export const projects = [
     title: "Hudson's",
     description: "Canada's pub is your go-to for great deals and happy hour specials!",
     image: '/images/website-hudsons.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -127,7 +129,7 @@ export const projects = [
     title: 'The Back Alley',
     description: "The Back Alley Nightclub is over 12000 feet and harbours 4 themed bars which include Bacardi, Jack, Red Bull and Jamesons.",
     image: '/images/website-backalley.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -138,7 +140,7 @@ export const projects = [
     title: 'Commonwealth',
     description: "Rustic-chic nightclub with DJ shows & dance floors on 2 floors, plus a menu of upscale bar bites.",
     image: '/images/website-commonwealth.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -149,7 +151,7 @@ export const projects = [
     title: "Ranchman's",
     description: "Western bar with a dance floor, stage & mechanical bull, plus a pub menu of burgers, ribs & wings.",
     image: '/images/website-ranchmans.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -160,7 +162,7 @@ export const projects = [
     title: 'The Banquet',
     description: "Premium Bar, a bowling alley, patio, games & more in Calgary's University district!",
     image: '/images/website-banquet.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -171,7 +173,7 @@ export const projects = [
     title: 'Papi',
     description: "Papi is a one-of-a-kind House of Tequila & Margarita Dance Club that comes together to offer guests a unique and unprecedented experience.",
     image: '/images/website-papi.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -182,7 +184,7 @@ export const projects = [
     title: 'PDT',
     description: "Please Don’t Tell [PDT] is Calgary’s newest bar/nightclub located in the heart of downtown right underneath first street S.W. Our goal is to offer our guests an upscale and unique nightlife experience. We strongly recommend our guests to dress up & reserve a table to get the ultimate experience.",
     image: '/images/website-pleasedonttell.png',
-    tags: ['React', '', ''],
+    tags: ['', '', ''],
     // TICKETS/GLIST
     source: '',
     // WEBPAGE LINK URL
@@ -206,6 +208,18 @@ export const stampede = [
   {
     title: "Badlands",
     description: "The Badlands Festival is a series of electronic and hip-hop shows downtown during the famous Calgary Stampede.",
+    concerts: "Concert listings",
+    Thurs:"Thurs, July 6 - ",
+    Fri:"Fri, July 7 - ",
+    Sat:"Sat, July 8 - LOUD LUXURY", 
+    Sun:"Sun, July 9 - FISHER", 
+    Mon:"Mon, July 10 - LEE BRYCE", 
+    Tues:"Tues, July 11 - ", 
+    Wed:"Wed, July 12 - ", 
+    Thurs2:"Thurs, July 13 - SKRILLEX", 
+    Fri2:"Fri, July 14 - ", 
+    Sat2:"Sat, July 15 - ", 
+    Sun2:"Sun, July 16 - ",
     image: "/images/website-badlands.png",
     tags: ["", "", "", ""],
     // TICKETS/GLIST
@@ -217,6 +231,18 @@ export const stampede = [
   {
     title: "Cowboys",
     description: "Cowboys Music Festival is a world famous event that hosts guests from around the world during the Calgary Stampede.",
+    concerts: "Concert listings",
+    Thurs:"Thurs, July 6 - DUSTIN LYNCH",
+    Fri:"Fri, July 7 - ",
+    Sat:"Sat, July 8 - ", 
+    Sun:"Sun, July 9 - ", 
+    Mon:"Mon, July 10 - ", 
+    Tues:"Tues, July 11 - ", 
+    Wed:"Wed, July 12 - JACK HARLOW", 
+    Thurs2:"Thurs, July 13 - ", 
+    Fri2:"Fri, July 14 - ", 
+    Sat2:"Sat, July 15 - ", 
+    Sun2:"Sun, July 16 - ",
     image: "/images/website-cowboysstampede.png",
     tags: ["", "", "", ""],
     // TICKETS/GLIST
@@ -228,6 +254,18 @@ export const stampede = [
   {
     title: "NTNL Saloon",
     description: "Located behind National 10th in the heart of Calgary's beltline is the newest tent experience. Live music, great food and the good times you know and love.",
+    concerts: "Concert listings",
+    Thurs:"Thurs, July 6 - ",
+    Fri:"Fri, July 7 - COLE BRADLEY",
+    Sat:"Sat, July 8 - ", 
+    Sun:"Sun, July 9 - ", 
+    Mon:"Mon, July 10 - ", 
+    Tues:"Tues, July 11 - ", 
+    Wed:"Wed, July 12 - ", 
+    Thurs2:"Thurs, July 13 - ", 
+    Fri2:"Fri, July 14 - ", 
+    Sat2:"Sat, July 15 - ", 
+    Sun2:"Sun, July 16 - ",
     image: "/images/website-ntnlsaloon.png",
     tags: ["", "", "", ""],
     // TICKETS/GLIST
@@ -239,6 +277,18 @@ export const stampede = [
   {
     title: "Wildhorse",
     description: "The Wildhorse Saloon is your destination for the greatest Stampede Party and events in Calgary.",
+    concerts: "Concert listings",
+    Thurs:"Thurs, July 6 - THE ROYAL ALBERTA ADVANTAGE",
+    Fri:"Fri, July 7 - ",
+    Sat:"Sat, July 8 - ", 
+    Sun:"Sun, July 9 - ", 
+    Mon:"Mon, July 10 - TOKYO POLICE CLUB", 
+    Tues:"Tues, July 11 - ", 
+    Wed:"Wed, July 12 - ", 
+    Thurs2:"Thurs, July 13 - CHAD BROWNLEE", 
+    Fri2:"Fri, July 14 - ", 
+    Sat2:"Sat, July 15 - ", 
+    Sun2:"Sun, July 16 - ",
     image: "/images/website-wildhorse.png",
     tags: ["", "", "", ""],
     // TICKETS/GLIST
@@ -250,6 +300,18 @@ export const stampede = [
   {
     title: "Whiskey Rose",
     description: "Nashville-inspired saloon in the heart of Calgary along 17th Avenue. Live music and dancing, Southern-inspired comfort foods, and no-nonsense.",
+    concerts: "Concert listings",
+    Thurs:"Thurs, July 6 - ",
+    Fri:"Fri, July 7 - ",
+    Sat:"Sat, July 8 - ", 
+    Sun:"Sun, July 9 - ", 
+    Mon:"Mon, July 10 - ", 
+    Tues:"Tues, July 11 - ", 
+    Wed:"Wed, July 12 - ", 
+    Thurs2:"Thurs, July 13 - ", 
+    Fri2:"Fri, July 14 - ", 
+    Sat2:"Sat, July 15 - ", 
+    Sun2:"Sun, July 16 - ",
     image: "/images/website-whiskeyrose.png",
     tags: ["", "", "", ""],
     // TICKETS/GLIST
@@ -261,6 +323,18 @@ export const stampede = [
   {
     title: "Coca-Cola Stage",
     description: "Enjoy the ultimate outdoor live music experience of the summer, free with Park Admission. From Rock to Hip-Hop, to Pop and EDM.",
+    concerts: "Concert listings",
+    Thurs:"Thurs, July 6 - ",
+    Fri:"Fri, July 7 - ",
+    Sat:"Sat, July 8 - ", 
+    Sun:"Sun, July 9 - ", 
+    Mon:"Mon, July 10 - ", 
+    Tues:"Tues, July 11 - ", 
+    Wed:"Wed, July 12 - ", 
+    Thurs2:"Thurs, July 13 - ", 
+    Fri2:"Fri, July 14 - ", 
+    Sat2:"Sat, July 15 - ", 
+    Sun2:"Sun, July 16 - ",
     image: "/images/website-cocacolastage.png",
     tags: ["", "", "", ""],
     // TICKETS/GLIST
@@ -272,6 +346,18 @@ export const stampede = [
   {
     title: "Nashville North",
     description: "The best Country music venue in the city!",
+    concerts: "Concert listings",
+    Thurs:"Thurs, July 6 - ",
+    Fri:"Fri, July 7 - ",
+    Sat:"Sat, July 8 - ", 
+    Sun:"Sun, July 9 - ", 
+    Mon:"Mon, July 10 - ", 
+    Tues:"Tues, July 11 - ", 
+    Wed:"Wed, July 12 - ", 
+    Thurs2:"Thurs, July 13 - ", 
+    Fri2:"Fri, July 14 - ", 
+    Sat2:"Sat, July 15 - ", 
+    Sun2:"Sun, July 16 - ",
     image: "/images/website-nashvillenorth.png",
     tags: ["", "", "", ""],
     // TICKETS/GLIST

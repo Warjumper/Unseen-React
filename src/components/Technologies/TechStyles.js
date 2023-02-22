@@ -112,9 +112,11 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+
+// CONCERT LIST
 export const ConcertInfo = styled.li`
-color: #d8bfbf;
-font-size: 1.75rem;
+color: #9cc9e3;
+font-size: 1.5rem;
 text-align: left;
 padding:1rem 2rem;
 `

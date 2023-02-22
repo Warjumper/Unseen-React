@@ -83,7 +83,7 @@ const Projects = () => (
     </SectionText>
     <GridContainer>
       {stampede.map(
-        ({ id, image, title, description, tages, source, visit }) => (
+        ({ id, image, title, description, concerts, source, visit, Thurs, Fri, Sat, Sun, Mon, Tues, Wed, Thurs2, Fri2, Sat2, Sun2 }) => (
           <BlogCard key={id}>
             <Img src={image} />
             <TitleContent>
@@ -94,17 +94,18 @@ const Projects = () => (
 
             {/* CONCERT LISTINGS */}
             <ConcertInfo style={{ marginBottom: "20px" }}>
-              <li>Thurs, Jul 6 -</li>
-              <li>Fri, Jul 7 -</li>
-              <li>Sat, Jul 8 -</li>
-              <li>Sun, July 9 -</li>
-              <li>Mon, July 10 -</li>
-              <li>Tues, July 11 -</li>
-              <li>Wed, July 12 -</li>
-              <li>Thurs, July 13 -</li>
-              <li>Fri, July 14 -</li>
-              <li>Sat, July 15 -</li>
-              <li>Sun, July 16 -</li>
+              {concerts}<br></br><br></br>
+              {Thurs}<br></br>
+              {Fri}<br></br>
+              {Sat}<br></br>
+              {Sun}<br></br>
+              {Mon}<br></br>
+              {Tues}<br></br>
+              {Wed}<br></br>
+              {Thurs2}<br></br>
+              {Fri2}<br></br>
+              {Sat2}<br></br>
+              {Sun2}<br></br>
             </ConcertInfo>
 
             {/* TITLE ABOVE CTA CARD BTNS */}
