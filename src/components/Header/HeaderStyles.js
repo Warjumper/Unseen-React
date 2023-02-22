@@ -14,12 +14,12 @@ export const Container = styled.div`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 60px);
     grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
+    grid-row-gap: 2rem;
   }
 `;
 
 export const Span = styled.span`
-  font-size: 2rem;
+  font-size: rem;
 `;
 
 export const Div1 = styled.div`
@@ -62,7 +62,7 @@ export const NavLink = styled.a`
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
+    padding: 1.5rem;
   }
 `;
 

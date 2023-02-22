@@ -23,8 +23,6 @@ const Projects = () => (
           <div>
 {/* TITLE ABOVE CTA CARD BTNS */}
             <TitleContent style={{marginBottom: '20px'}} >Check them out below!</TitleContent>
-
-        
           </div>
 
 {/* CODE LINKS */}
