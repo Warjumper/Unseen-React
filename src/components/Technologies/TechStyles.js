@@ -116,5 +116,5 @@ export const ConcertInfo = styled.li`
 color: #d8bfbf;
 font-size: 1.75rem;
 text-align: left;
-padding:1rem 6rem;
+padding:1rem 2rem;
 `
