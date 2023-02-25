@@ -3,6 +3,8 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle, SectionText, } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { AiFillInstagram } from 'react-icons/ai';
+import { SocialIcons } from '../Header/HeaderStyles';
 
 const Projects = () => (
   <Section nopadding id="nightlife">
@@ -28,7 +30,7 @@ const Projects = () => (
 {/* CARD BUTTON LINKS */}
           <UtilityList>
             <ExternalLinks href={visit}>Website</ExternalLinks>
-            {/* <ExternalLinks href={source}>Guestlist</ExternalLinks> */}
+            <ExternalLinks href={source}>Instagram</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

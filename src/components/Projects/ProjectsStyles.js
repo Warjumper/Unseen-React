@@ -94,12 +94,12 @@ color:#000000;
 font-weight: bold;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #9cc9e3;
+background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);
 border-radius: 15px;
-transition: 0.5s;
+transition: 0.25s;
 &:hover{
-  background: #4863a0;
-
+  background: #000;
+  color: #fff;
 }
 `;
 
