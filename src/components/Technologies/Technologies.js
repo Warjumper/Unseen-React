@@ -79,7 +79,7 @@ const Projects = () => (
     <SectionDivider style={{ marginTop: "20px" }} />
     <SectionTitle main>Stampede</SectionTitle>
     <SectionText>
-      A list of the hottest Calgary Stampede 2023 events!
+      A list of the hottest Calgary Stampede 2023 Tents and Events!
     </SectionText>
     <GridContainer>
       {stampede.map(
