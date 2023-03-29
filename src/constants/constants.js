@@ -50,7 +50,7 @@ export const projects = [
   {
     title: "Whiskey Rose",
     description: "Whiskey Rose Saloon is a bar to come together, listen to all kinds of music, and knock back a bourbon (or six).",
-    image: "/images/website-whiskeyrose.png",
+    image: "/images/website-whiskeyroserebrand.png",
     tags: ["", "", ""],
     // INSTAGRAM
     source: "https://www.instagram.com/whiskeyroseyyc/",
@@ -192,6 +192,17 @@ export const projects = [
     visit: 'https://pdtcalgary.ca/',
     id: 16,
   },
+  {
+    title: 'Rosé',
+    description: "Rosé offers an unbeatable unique experience for our guests. Our aim is to create an incomparable nightlife experience.",
+    image: '/images/website-roselounge.png',
+    tags: ['', '', ''],
+    // INSTAGRAM
+    source: 'https://www.instagram.com/roseloungeyyc/',
+    // WEBPAGE LINK URL
+    visit: 'https://www.roseyyc.com/',
+    id: 17,
+  },
 
 ];
 
@@ -238,7 +249,7 @@ export const stampede = [
     Sat:"Sat, July 8 - ", 
     Sun:"Sun, July 9 - THE KID LAROI", 
     Mon:"Mon, July 10 - ", 
-    Tues:"Tues, July 11 - ", 
+    Tues:"Tues, July 11 - SAM HUNT", 
     Wed:"Wed, July 12 - JACK HARLOW", 
     Thurs2:"Thurs, July 13 - ", 
     Fri2:"Fri, July 14 - TLC & SHAGGY", 
@@ -372,7 +383,7 @@ export const stampede = [
     description: "The Back Alley Nightclub is over 12000 feet and harbours 4 themed bars.",
     concerts: "Concert listings",
     Thurs:"Thurs, July 6 - ",
-    Fri:"Fri, July 7 - ",
+    Fri:"Fri, July 7 - OUR LADY PEACE",
     Sat:"Sat, July 8 - ", 
     Sun:"Sun, July 9 - ", 
     Mon:"Mon, July 10 - ", 
@@ -388,6 +399,29 @@ export const stampede = [
     source: "",
     // WEBPAGE LINK URL
     visit: "https://backalleycalgary.com/stampede-music-festival/",
+    id: 7,
+  },
+  {
+    title: "Saddledome",
+    description: "Scotiabank Saddledome is a multi-use indoor arena in Calgary, Alberta, Canada. Located in Stampede Park in the southeast end of downtown Calgary.",
+    concerts: "Concert listings",
+    Thurs:"Thurs, July 6 - ",
+    Fri:"Fri, July 7 - PITBULL",
+    Sat:"Sat, July 8 - ALABAMA", 
+    Sun:"Sun, July 9 - ", 
+    Mon:"Mon, July 10 - ", 
+    Tues:"Tues, July 11 - ", 
+    Wed:"Wed, July 12 - ", 
+    Thurs2:"Thurs, July 13 - ", 
+    Fri2:"Fri, July 14 - ", 
+    Sat2:"Sat, July 15 - ", 
+    Sun2:"Sun, July 16 - ",
+    image: "/images/website-saddledome.png",
+    tags: ["", "", "", ""],
+    // TICKETS/GLIST
+    source: "",
+    // WEBPAGE LINK URL
+    visit: "https://www.calgarystampede.com/stampede",
     id: 7,
   },
 

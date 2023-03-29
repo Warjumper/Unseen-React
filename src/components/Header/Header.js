@@ -61,11 +61,11 @@ const Header = () => (
           <NavLink>Stampede</NavLink>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="#concerts">
           <NavLink>Concerts</NavLink>
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link href="#about">
           <NavLink>About</NavLink>
