@@ -37,9 +37,9 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Honky-tonk",
+    title: "Honky-Tonk",
     description: "A new country saloon-style bar, just opened on 10th Avenue, making it an ideal location to dance the night away.",
-    image: "/images/website-honkeytonk.png",
+    image: "/images/honkyTonkBar.svg",
     tags: ["", "", ""],
     // INSTAGRAM
     source: "https://www.instagram.com/honkytonkcalgary/",
