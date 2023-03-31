@@ -389,7 +389,7 @@ export const stampede = [
     Mon:"Mon, July 10 - ", 
     Tues:"Tues, July 11 - SEAN PAUL", 
     Wed:"Wed, July 12 - ", 
-    Thurs2:"Thurs, July 13 - ", 
+    Thurs2:"Thurs, July 13 - BUSH", 
     Fri2:"Fri, July 14 - ", 
     Sat2:"Sat, July 15 - ", 
     Sun2:"Sun, July 16 - ",
