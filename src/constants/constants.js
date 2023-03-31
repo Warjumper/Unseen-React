@@ -379,7 +379,7 @@ export const stampede = [
     id: 6,
   },
   {
-    title: "Back Alley",
+    title: "Back Alley Tent",
     description: "The Back Alley Nightclub is over 12000 feet and harbours 4 themed bars.",
     concerts: "Concert listings",
     Thurs:"Thurs, July 6 - ",
