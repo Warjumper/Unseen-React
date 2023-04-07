@@ -386,7 +386,7 @@ export const stampede = [
     Fri:"Fri, July 7 - OUR LADY PEACE",
     Sat:"Sat, July 8 - ", 
     Sun:"Sun, July 9 - ", 
-    Mon:"Mon, July 10 - ", 
+    Mon:"Mon, July 10 - HEADSTONES", 
     Tues:"Tues, July 11 - SEAN PAUL", 
     Wed:"Wed, July 12 - ", 
     Thurs2:"Thurs, July 13 - BUSH", 
