@@ -70,18 +70,18 @@ export const projects = [
     visit: "https://www.cowboysmusicfestival.com/",
     id: 5,
   },
-  {
-    title: "Trolley5",
-    description:
-      "Industrial-style space with outdoor seating serving house-brewed beers, burgers, pizza & BBQ.",
-    image: "/images/website-trolley5.png",
-    tags: ["", "", ""],
-    // INSTAGRAM
-    source: "https://www.instagram.com/trolley_5/",
-    // WEBPAGE LINK URL
-    visit: "https://trolley5.com/",
-    id: 6,
-  },
+  // {
+  //   title: "Trolley5",
+  //   description:
+  //     "Industrial-style space with outdoor seating serving house-brewed beers, burgers, pizza & BBQ.",
+  //   image: "/images/website-trolley5.png",
+  //   tags: ["", "", ""],
+  //   // INSTAGRAM
+  //   source: "https://www.instagram.com/trolley_5/",
+  //   // WEBPAGE LINK URL
+  //   visit: "https://trolley5.com/",
+  //   id: 6,
+  // },
   {
     title: "One Night Stan's",
     description: "One Night Stan's is the kind of place where you can feel comfortable in a three piece suit, yoga pants, or anything in between.",
@@ -254,7 +254,7 @@ export const stampede = [
     Thurs2:"Thurs, July 13 - ", 
     Fri2:"Fri, July 14 - TLC & SHAGGY", 
     Sat2:"Sat, July 15 - ", 
-    Sun2:"Sun, July 16 - ",
+    Sun2:"Sun, July 16 - ICE CUBE | STEVE AOKI | 24kGOLDN",
     image: "/images/website-cowboysstampede.png",
     tags: ["", "", "", ""],
     // TICKETS/GLIST
