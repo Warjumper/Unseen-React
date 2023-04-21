@@ -275,7 +275,7 @@ export const stampede = [
     Tues:"Tues, July 11 - ", 
     Wed:"Wed, July 12 - ", 
     Thurs2:"Thurs, July 13 - ", 
-    Fri2:"Fri, July 14 - ", 
+    Fri2:"Fri, July 14 - DISCOLINES | TRESBEACHES", 
     Sat2:"Sat, July 15 - ", 
     Sun2:"Sun, July 16 - ",
     image: "/images/website-ntnlsaloon.png",
